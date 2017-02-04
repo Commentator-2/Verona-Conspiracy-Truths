@@ -1,0 +1,23 @@
+body {
+	background-color: lightgreen;
+}
+h1 {
+	font-size: 50px;
+	color: cornflowerblue;
+	font-family: impact, sans-serif;
+	text-align: center;
+}
+p {
+	font-size: 25px;
+	color: mediumpurple;
+	font-family: "Palatino Linotype", "Book Antigua", Palatino, serif;
+	text-align: center;
+	line-height: 1.5; /* 1.5 line spacing */
+	margin-left: 10%;
+	margin-right: 10%;
+}
+a {
+	text-align: left;
+	font-size: 20px;
+	color: royalblue;
+}
