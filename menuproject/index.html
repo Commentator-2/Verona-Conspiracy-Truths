@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menus!!!</title>
+	<script type="text/javascript"> </script>
+	<script src="menus.js"></script>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+	
+<body onload="loadMenus()">
+	<div id="location"></div>
+	<div class="tab-wrap">
+		<input type="radio" name="tabs" id="tab1" checked>
+<div id="tab1-content" class="tab-label-content">
+	<label for="tab1">Breakfast</label>
+  <div class="tab-content" id="breakfast"></div>
+</div>
+	<input type="radio" name="tabs" id="tab2">
+	<div class="tab-label-content" id="tab2-content">
+		<label for="tab2">Lunch</label>
+	<div class="tab-content" id="lunch"></div>
+</div>
+	<input type="radio" name="tabs" id="tab3">
+	<div class="tab-label-content" id="tab3-content">
+		<label for="tab3">Dinner</label>
+	<div class="tab-content" id="dinner"></div>
+</div>
+<div class="slide"></div>
+</div>
+<div class="w3-sidebar">
+	<p id="me">Created by Sophie Danielpour</p>
+	<form onchange="changeLocation()">
+		<h3 id="loc_select">Select a different location:</h3>
+		<select id="LocationsList">
+			<option>Carm</option>
+			<option>Dewick</option>
+			<option>Commons</option>
+			<option>Hodgdon</option>
+			<option>Mugar</option>
+			<option>PaxEtLox</option>
+			<option>Tower</option>
+		</select>
+		<h2></h2>
+		<h3 id="date_select">Choose a date:</h3>
+		<input id="Calender" name="Calendar" type="date">
+		</form>
+		<p></p>
+		<button id="fb_button" onclick="clicked()">Display Tufts Dining FB Feed</button>
+		<iframe id="fb" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2FTuftsDining%2Fposts%2F%3Fref%3Dpage_internal&tabs=timeline&width=270&height=190&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="270" height="190" style="border:none;overflow:hidden;visibility:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		<a href="https://dining.tufts.edu/" id="return_link">Return to Tufts Dining</a></label>	
+</div>
+</body>
+</html>
